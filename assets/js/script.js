@@ -9,8 +9,10 @@ function increment(){
  };
 
 function decrement (){
+    if (currentNumber > 0){
         currentNumber = currentNumber -1;
         currentNumberWrapper.innerHTML = currentNumber;
-      
+          }
+        
 };
 
